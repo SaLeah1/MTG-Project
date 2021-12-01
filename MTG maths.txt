@@ -1,3 +1,12 @@
+land score is a generic value that was chosen to be 100 simply because it was round. 
+Another constant is found (the 20/6 used in the program) by dividing the inital land score by the land count you want it to equal
+this value says how much the landscore has to increase to increase the land count by one.
+I tested out a few different aproaches such as starting with a higher landscore and having 1 and 2
+cost cards lower the landscore but it deviated from the correct landcount too quickly.
+I also tested a variety of weights for the costs, innitaly starting with whole integers but they caused the landscore to grow way too fast
+
+below is a table of landscores and their corresponding land counts (using the 20/6 constant) and an example cost curve
+
 Landscore	Land Count
 100		15
 110		16.5
