@@ -1,0 +1,35 @@
+Landscore	Land Count
+100		15
+110		16.5
+120		18
+130		19.5
+140		21
+150		22.5
+160		24
+170		25.5
+180		27
+190		28.5
+200		30
+210		31.5
+220		33
+230		34.5
+240		36
+250		37.5
+260		39
+270		40.5
+280		42
+
+starting landscore=100
+for every % of 1 drops, +0
+for ever % of 2 drops, +0.3
+for every % of 3 drops, +0.6
+for every % of 4 drops, +0.9
+for every % of 5 drops, +1.2
+for every % of 6 drops, +1.5
+for every % of 7+ drops, +1.8
+
+ex)
+a deck with a curve of [15%,25%,20%,5%,10%,10%,15%] would result in a landscore of:
+100+(0*15)+(0.3*25)+(0.6*20)+(0.9*5)+(1.2*10)+(1.5*10)+(1.8*15)=180 landscore
+to get land count from score, divide by 20/6 to get a sugested land count of 27
+
